@@ -17,7 +17,7 @@ You can use the published layer using the ARN
 Alternatively, if you want to publish the layer yourself, edit the provided
 Makefile to set the AWS region to publish to, then run just run `make publish`.
 
-The binares will be in `/opt/p7zip/bin/7za` inside your Lambda container.
+The 7za binary can be found in `/opt/bin` inside your Lambda container.
 
 ## P7zip Version
 
