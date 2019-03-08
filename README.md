@@ -12,12 +12,16 @@ archive files, e.g. using the
 
 ## Use within Lambda
 
-You can use the published layer using the ARN
-`arn:aws:lambda:ap-southeast-1:469864174306:layer:p7zip:1`.
-Alternatively, if you want to publish the layer yourself, edit the provided
-Makefile to set the AWS region to publish to, then run just run `make publish`.
+You can use the published layer using the following ARNs (based on region):
 
-The 7za binary can be found in `/opt/bin` inside your Lambda container.
+| Region           | ARN                                                        |
+|------------------|------------------------------------------------------------|
+| `ap-southeast-1` | `arn:aws:lambda:ap-southeast-1:469864174306:layer:p7zip:1` |
+
+Alternatively, if you want to publish the layer yourself, edit the provided
+Makefile to set the AWS region to publish to, then run `make publish`.
+
+The 7za binary can be found in `/opt/bin/7za` inside your Lambda container.
 
 ## P7zip Version
 
