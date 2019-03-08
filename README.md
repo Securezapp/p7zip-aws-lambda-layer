@@ -1,6 +1,6 @@
 # p7zip AWS Lambda Layer
 
-This is an AWS Lambda layer containing the statically linked `7az` binary
+This is an AWS Lambda layer containing the statically linked `7za` binary
 utility from the [`p7zip`](https://sourceforge.net/projects/p7zip/) package.
 p7zip is a Unix port of the [7-Zip](https://www.7-zip.org) file archiver. It
 supports high compression ratio in the 7z format, as well as many other
