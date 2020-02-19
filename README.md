@@ -10,6 +10,10 @@ You can use this layer in your Lambda function to compress/uncompress 7z/zip
 archive files, e.g. using the
 [`node-7z`](https://www.npmjs.com/package/node-7z) wrapper for Node.js.
 
+## Status & Alternatives
+
+As we are no longer using this Lambda layer in our own projects, this repo has been archived. (No pun intended.) To generate Zip archives using strong AES-256 encryption, you can use the [archiver package](https://www.npmjs.com/package/archiver) with the [archiver-zip-encrypted plugin](https://www.npmjs.com/package/archiver-zip-encrypted) instead.
+
 ## Use within Lambda
 
 You can use the published layer using the following ARNs (based on region):
